@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BuzzHub</string>
+
+    <string-array name="Menu">
+        <item>Profile</item>
+        <item>Settings</item>
+        <item>Log Out</item>
+
+    </string-array>
+
+    <string-array name="provinces">
+        <item>Null</item>
+        <item>Gauteng</item>
+        <item>Limpopo</item>
+        <item>KwaZulu Natal</item>
+        <item>Eastern Cape</item>
+        <item>Western Cape</item>
+        <item>Mpumalanga</item>
+        <item>North West</item>
+        <item>Northern Cape</item>
+        <item>Free State</item>
+    </string-array>
+
+    <string name="exhibitions">Exhibitions</string>
+</resources>
