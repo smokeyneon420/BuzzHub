@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/SignUp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".SignUpPage">
+
+    <TextView
+        android:id="@+id/eventHostHyperLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="I'm an event host"
+        android:textColor="#009988"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/loginHyperLink"
+        android:layout_width="62dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Login"
+        android:textColor="#009988"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/backButtonSP"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#009988"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Welcome Abroad!"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButtonSP" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Let's get to know you, yeah?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="94dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="Enter your full name"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="69dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUserName" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="25dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_bold"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/signUpButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#009988"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Sign Up"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSportingEventName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+
+    <TextView
+        android:id="@+id/textViewSportingEventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Already have an account?"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainHost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#101010"
+    tools:context=".addHostActivity">
+
+
+    <FrameLayout
+        android:id="@+id/hostFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="360dp"
+        android:background="@drawable/backgroundshape"
+        android:paddingBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="240dp"
+            android:layout_height="281dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_light"
+            android:gravity="center_horizontal"
+            android:text="Are you an event organiser?"
+            android:textAlignment="center"
+            android:textColor="#FAFAFA"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="170dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="List your events here and let's get Buzzing"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="230dp"
+        android:background="@color/material_dynamic_neutral_variant95"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txtName"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:capitalize="words"
+                        android:fontFamily="@font/poppins_light"
+                        android:gravity="center"
+                        android:hint="enter your name" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center"
+                    android:hint="enter your email">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txtEmail"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:gravity="center" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/provinceSpinner"
+                    android:layout_width="250dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:ems="10"
+                    android:foregroundTint="#FAF5F5"
+                    android:gravity="center"
+                    android:hint="enter province"
+                    android:inputType="text"
+                    android:minWidth="210dp"
+                    android:textColorHint="#141414"
+                    android:textColorLink="@color/black" />
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center"
+                    android:hint="enter your city">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txtCity"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:gravity="center" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="10"
+                    app:endIconMode="clear_text">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txtPhone"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_light"
+                        android:gravity="center"
+                        android:hint="enter your contact details"
+                        android:inputType="phone" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btnHostSignUp"
+                    android:layout_width="198dp"
+                    android:layout_height="54dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:backgroundTint="#009988"
+                    android:fontFamily="@font/poppins_light"
+                    android:gravity="center"
+                    android:text="Sign me up!"
+                    android:textColorLink="#8BC34A"
+                    android:textSize="16sp"
+                    android:textStyle="italic"
+                    app:strokeColor="#388E3C" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
