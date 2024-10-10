@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "479214931983",
+    "firebase_url": "https://buzzhub-266a8-default-rtdb.firebaseio.com",
+    "project_id": "buzzhub-266a8",
+    "storage_bucket": "buzzhub-266a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479214931983:android:b36a16bb4e802a48c5537a",
+        "android_client_info": {
+          "package_name": "com.gift.buzzhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW4s-d3E-z3JwvScrUjNBz-gxBRp9gbdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

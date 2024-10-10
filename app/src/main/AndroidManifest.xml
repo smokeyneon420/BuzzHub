@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/buzzhub__ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/buzzhub__ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BuzzHub"
+        tools:targetApi="31">
+        <activity
+            android:name=".EventPayment"
+            android:exported="false" />
+        <activity
+            android:name=".EditEventsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddEventsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteEventsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HostLogin"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsPage"
+            android:exported="false" />
+        <activity
+            android:name=".HostDashboard"
+            android:exported="false" />
+        <activity android:name=".PaymentMethodsPage" />
+        <activity android:name=".AccountPage" />
+        <activity android:name=".DeleteAccountPage" />
+        <activity android:name=".DisplayPage" />
+        <activity android:name=".HelpCentrePage" />
+        <activity android:name=".NotificationPage" />
+        <activity android:name=".PrivacyPolicyPage" />
+        <activity android:name=".TwoFactorAuthPage" />
+        <activity android:name=".UpdateContactNumberPage" />
+        <activity android:name=".UpdateEmailPage" />
+        <activity android:name=".UpdateNamePage" />
+        <activity android:name=".UpdateProfilePage" />
+        <activity android:name=".Exhibitions" />
+        <activity android:name=".GambleActivity" />
+        <activity android:name=".SportingEventsActivity" />
+        <activity android:name=".ConcertsPage" />
+        <activity android:name=".ProfilePage" />
+        <activity android:name=".Comedy" />
+        <activity android:name=".FestivalsActivity" />
+        <activity android:name=".addHostActivity" />
+        <activity android:name=".HomePage" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="false"
+            android:theme="@style/Theme.BuzzHub" />
+        <activity
+            android:name=".SignUpPage"
+            android:exported="false"
+            android:theme="@style/Theme.BuzzHub" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

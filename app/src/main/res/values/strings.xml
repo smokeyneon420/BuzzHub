@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">BuzzHub</string>
+
+
+    <string name="gambling_disclaimer">
+
+1. Eligibility and Responsibility
+
+By using this site, you affirm that you are at least 18 years of age, or the legal age required to gamble in your jurisdiction, whichever is greater. It is your responsibility to ensure that you comply with all applicable laws and regulations regarding online gambling in your area. We encourage responsible gaming practices and advise you to set limits on your gambling activities. If you feel that your gambling is becoming problematic, please seek professional help.
+
+2. Risk and Wagering
+
+Gambling involves risk, and you should only wager money that you can afford to lose. We do not guarantee that you will win or recover any money that you wager. All bets are placed at your own risk, and we accept no liability for any financial loss or damage resulting from the use of this site.
+
+3. Accuracy and Availability
+
+We strive to ensure that all information provided on this site is accurate and up-to-date. However, we do not guarantee the accuracy, completeness, or reliability of any content, including odds, results, or other betting-related information. The site may be unavailable from time to time due to maintenance or technical issues, and we accept no responsibility for any loss or inconvenience caused by such interruptions.
+
+4. Third-Party Links
+
+Our site may contain links to third-party websites or services. We do not endorse, and are not responsible for, the content or practices of these third parties. Accessing and using such third-party sites is at your own risk.</string>
+
+    <string-array name="Menu">
+        <item>MENU:</item>
+        <item>Profile</item>
+        <item>Settings</item>
+        <item>Log Out</item>
+
+    </string-array>
+
+    <string-array name="provinces">
+        <item>Gauteng</item>
+        <item>Limpopo</item>
+        <item>KwaZulu Natal</item>
+        <item>Eastern Cape</item>
+        <item>Western Cape</item>
+        <item>Mpumalanga</item>
+        <item>North West</item>
+        <item>Northern Cape</item>
+        <item>Free State</item>
+    </string-array>
+
+    <string-array name="Categories">
+        <item>Comedy</item>
+        <item>Concerts</item>
+        <item>Exhibitions</item>
+        <item>Gambling</item>
+        <item>Sporting Events</item>
+        <item>Festivals</item>
+    </string-array>
+
+    <string name="exhibitions">Exhibitions</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
